@@ -44,7 +44,8 @@
   height: 32px;
 }
 
-.cart-count {
+/* Updated selector to cart_quantity_count */
+.cart_quantity_count {
   position: absolute;
   top: -8px;
   right: -10px;
@@ -63,7 +64,8 @@
   font-size: 1.8rem;
 }
 
-.plant-list {
+/* Updated selector to product-list */
+.product-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 25px;
